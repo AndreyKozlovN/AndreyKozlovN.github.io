@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.9e9b56dc.js",
+    "main.css": "/static/css/main.cfd7d461.css",
+    "main.js": "/static/js/main.59561790.js",
+    "static/media/background.svg": "/static/media/background.9bafde013c49a37b2eaa.svg",
     "static/media/han-solo.jpg": "/static/media/han-solo.84705bac66e252072c67.jpg",
     "index.html": "/index.html",
-    "main.9e9b56dc.js.map": "/static/js/main.9e9b56dc.js.map"
+    "main.cfd7d461.css.map": "/static/css/main.cfd7d461.css.map",
+    "main.59561790.js.map": "/static/js/main.59561790.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.9e9b56dc.js"
+    "static/css/main.cfd7d461.css",
+    "static/js/main.59561790.js"
   ]
 }
