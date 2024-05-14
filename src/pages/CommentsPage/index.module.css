@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100vw;
+    height: 100vw;
+    min-height: 100vh;
+
+    background-image: url("../../assets/background.svg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #101F25;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    margin: 52px auto 64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        background-position: center;
+    }
+
+    .content {
+        margin: 32px 24px 48px;
+    }
+}
