@@ -1,3 +1,3 @@
-export * from "./Avatar";
-export * from "./Button";
-export * from "./LikeCounter";
+export * from "./Avatar/Avatar";
+export * from "./Button/Button";
+export * from "./Spinner/Spinner";

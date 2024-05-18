@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper svg {
+    stroke: var(--hint);
+}
+
+.wrapper .liked {
+    fill: var(--red);
+    stroke: var(--red);
+    cursor: pointer;
+}
+
+.wrapper .default {
+    stroke: var(--red);
+    cursor: pointer;
+}
+
+.wrapper .default:hover,
+.wrapper .liked:hover {
+    opacity: 0.75;
+}
+
+.text {
+    color: var(--white);
+    line-height: 150%;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 480px) {
+    .text {
+        font-size: 14px;
+    }
+}

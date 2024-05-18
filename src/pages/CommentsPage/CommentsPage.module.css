@@ -2,7 +2,8 @@
     width: 100vw;
     height: 100vw;
     min-height: 100vh;
-
+    max-height: 100vh;
+    
     background-image: url("../../assets/background.svg");
     background-size: cover;
     background-position: top;
@@ -25,5 +26,6 @@
 
     .content {
         margin: 32px 24px 48px;
+        max-width: calc(100vw - 48px);
     }
 }
